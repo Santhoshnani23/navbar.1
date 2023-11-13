@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    background-color: rgb(226, 226, 238);
+    transition: 3s;
+}
+.container{
+    width: 20rem;
+    height: 10rem;
+    background-color: rgb(226, 226, 238);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50rem;
+    
+
+
+}
+button{
+    width: 100%;
+    background-color: black;
+    color: rgb(167, 30, 30);
+    font-size: 20px;
+    margin-left: 3px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+p{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+</style>
+<body>
+   
+       <div class="container">
+        <p id="colourcode" >#ff</p>
+        <button id="btn" onclick="getcolor()">Generate Colour</button>
+
+       </div>
+   
+    <script src="./randomcolour.js"></script>
+</body>
+</html>
